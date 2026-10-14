@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - LastSeen Tracker</title>
+    <style>
+        :root {
+            --primary: #0F5132;
+            --secondary: #10B981;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --bg-light: #F8FAFC;
+            --card-bg: #FFFFFF;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            padding: 30px 20px;
+            max-width: 860px;
+            margin: 0 auto;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+        }
+        .header-card {
+            background: linear-gradient(135deg, #0F5132 0%, #10B981 100%);
+            color: white;
+            padding: 36px 30px;
+            border-radius: 16px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(15, 81, 50, 0.15);
+        }
+        .header-card h1 { margin: 0 0 10px 0; font-size: 28px; }
+        .header-card p { margin: 0; opacity: 0.9; font-size: 14px; }
+        .content-card {
+            background: var(--card-bg);
+            padding: 36px 32px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+            border: 1px solid #E2E8F0;
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid #E2E8F0;
+            padding-bottom: 8px;
+            margin-top: 32px;
+            font-size: 20px;
+        }
+        p, li { color: #334155; font-size: 15px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        a { color: var(--secondary); text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+        .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-card">
+        <span class="badge">Official Legal Document</span>
+        <h1>Privacy Policy</h1>
+        <p>Last updated: September 2026 • Effective immediately</p>
+    </div>
+
+    <div class="content-card">
+        <p>This privacy policy governs your use of the mobile software application <strong>LastSeen Tracker</strong> ("Application"), created and maintained by the developer team.</p>
+
+        <h2>1. Data Collection and Local Privacy Architecture</h2>
+        <p><strong>LastSeen Tracker</strong> is engineered with a strict <em>Privacy-First Local Architecture</em>:</p>
+        <ul>
+            <li><strong>Zero Cloud Interception:</strong> We do not collect, upload, sell, or broadcast your personal chat conversations, media content, or messaging credentials to any proprietary external servers.</li>
+            <li><strong>Local Data Retention:</strong> All activity timelines, contact logs, and media caches are stored securely within your device's sandboxed private storage.</li>
+            <li><strong>Target Contact Monitoring:</strong> The phone numbers monitored in your watchlist are maintained strictly for query reconciliation between your device session and designated messaging protocols.</li>
+        </ul>
+
+        <h2>2. Third-Party Services and Analytics</h2>
+        <p>To deliver seamless billing operations, diagnostic stability, and marketing attribution compliant with Google Play standards, the Application integrates the following trusted third-party SDKs:</p>
+        <ul>
+            <li><strong>Google Play In-App Billing:</strong> Handles subscription payments, trial provisioning, and license validation. No credit card or financial data is ever collected or processed by us directly. All payments adhere to the <a href="https://payments.google.com/legaldocument?family=0.buyertos" target="_blank" rel="noopener noreferrer">Google Payments Terms of Service</a>.</li>
+            <li><strong>Google Analytics for Firebase:</strong> Collects anonymous, aggregated technical metrics (e.g., app launches, screen views, in-app checkout funnels, and error reports) to diagnose crashes and enhance user experience.</li>
+            <li><strong>Google Ads (UAC Conversion Tracking):</strong> Utilizes Google Play Advertising Identifier (AD_ID) strictly for pseudonymous marketing conversion verification. Data handling complies fully with <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</li>
+        </ul>
+        <p><em>Encryption in Transit:</em> All communication with these trusted Google services is strictly encrypted in transit using industry-standard Transport Layer Security (TLS/HTTPS protocols).</p>
+
+        <h2>3. Permissions and Justifications</h2>
+        <p>In strict alignment with Google Play Developer Policy on permissions and sensitive user data:</p>
+        <ul>
+            <li><strong>READ_CONTACTS (Personal &amp; Sensitive User Data):</strong> Used strictly on-demand to allow you to conveniently select target phone numbers and display familiar contact names from your local address book, eliminating manual typing errors. Your contacts data is processed strictly in-memory on your device and is <strong>NEVER uploaded, synced, transferred, or sold to any remote server or third party</strong>.</li>
+            <li><strong>POST_NOTIFICATIONS / VIBRATE:</strong> Required to deliver instantaneous high-priority heads-up alerts and vibration feedback the second a monitored contact connects or disconnects.</li>
+            <li><strong>ACCESS_NETWORK_STATE / INTERNET:</strong> Used to maintain communication bridge synchronizations and perform real-time activity lookups.</li>
+            <li><strong>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS:</strong> (Optional, User-Granted) Allows background persistent monitoring to remain active without being killed by Android Doze/battery saving modes.</li>
+        </ul>
+
+        <h2>4. Children's Online Privacy Protection Act (COPPA)</h2>
+        <p>Our service is not intended for or directed towards children under the age of 13. We do not knowingly collect personal information from children under 13. If you become aware that a child has provided us with personal information, please notify us immediately.</p>
+
+        <h2>5. GDPR and CCPA Privacy Rights</h2>
+        <p>Users residing in the European Economic Area (EEA) and California enjoy comprehensive data rights including the right to access, rectify, or purge locally held data.</p>
+
+        <h2>6. Data Retention and Deletion Request</h2>
+        <p>You retain absolute control over your information:</p>
+        <ul>
+            <li><strong>Instant Local Data Deletion:</strong> You can erase all monitored logs, timelines, and cached records at any time by navigating to <em>Me → Clear Data</em> or by uninstalling the Application.</li>
+            <li><strong>Advertising ID Reset / Deletion:</strong> You can revoke or erase your Advertising Identifier at any time via your device settings: <em>Settings → Google → Ads → Delete advertising ID</em>.</li>
+            <li><strong>Account &amp; Telemetry Deletion Requests:</strong> If you wish to request the manual purging of any technical support correspondence or associated telemetry records, please contact our support desk at <a href="mailto:zzhanhao449@gmail.com">zzhanhao449@gmail.com</a>. Requests are fulfilled within 30 business days.</li>
+        </ul>
+
+        <h2>7. Policy Revisions</h2>
+        <p>We may periodically update our Privacy Policy to reflect ongoing technological or regulatory improvements. Any modifications will be posted directly to this URL with a revised effective date.</p>
+
+        <h2>8. Contact and Inquiries</h2>
+        <p>If you have questions, inquiries, or feedback concerning this Privacy Policy, please contact our privacy compliance team at <a href="mailto:zzhanhao449@gmail.com">zzhanhao449@gmail.com</a> (or via our official Google Play developer console listing support channels).</p>
+    </div>
+
+    <div class="footer">
+        © 2026 LastSeen Tracker. All rights reserved. Secured by Google Play.
+    </div>
+</body>
+</html>
